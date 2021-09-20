@@ -23,10 +23,7 @@ export interface Props {
   darkShadow?: boolean;
 }
 
-export default function MRBasket({
-  className, 
-  ...rest
-}: Props) {
+export default function MRBasket({ className, ...rest }: Props) {
   const classes = useStyleMRBasket();
   const basketItems = useSelector(selectorBasket);
   const totalCost = basketItems

@@ -1,13 +1,13 @@
-import { Grid } from '@material-ui/core';
-import IconButton from '@material-ui/core/IconButton';
-import AddIcon from '@material-ui/icons/Add';
-import RemoveIcon from '@material-ui/icons/Remove';
-import React, { ReactElement, useCallback } from 'react';
-import { useDispatch } from 'react-redux';
+import { Grid } from "@material-ui/core";
+import IconButton from "@material-ui/core/IconButton";
+import AddIcon from "@material-ui/icons/Add";
+import RemoveIcon from "@material-ui/icons/Remove";
+import React, { ReactElement, useCallback } from "react";
+import { useDispatch } from "react-redux";
 
-import Label from '../MRLabel';
-import BasketActions from './../../redux/basket/actions';
-import { useStyleMRBasketItem } from './style';
+import Label from "../MRLabel";
+import BasketActions from "./../../redux/basket/actions";
+import { useStyleMRBasketItem } from "./style";
 
 interface Props {
   id: string;
@@ -71,7 +71,9 @@ export default function MRBasketItem({
               </IconButton>
             </Grid>
             <Grid item>
-              <Label data-testid="count" className={classes.productCount}>{count}</Label>
+              <Label data-testid="count" className={classes.productCount}>
+                {count}
+              </Label>
             </Grid>
             <Grid item>
               <IconButton

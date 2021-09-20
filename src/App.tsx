@@ -11,7 +11,7 @@ function App() {
     <MuiThemeProvider theme={theme}>
       <Provider store={store}>
         <div style={{ backgroundColor: colors.appBackground }}>
-          <Header/>
+          <Header />
           <Home />
           <Footer />
         </div>

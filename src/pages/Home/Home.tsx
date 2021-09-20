@@ -8,8 +8,6 @@ import { selectorSidebarStatus } from "../../redux/filter/selectors";
 import HomeFilter from "./HomeFilter";
 import { useStyleHome } from "./style";
 
-
-
 export default function Home(): ReactElement {
   const classes = useStyleHome();
   const dispatch = useDispatch();

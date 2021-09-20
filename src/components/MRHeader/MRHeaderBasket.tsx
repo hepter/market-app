@@ -8,7 +8,6 @@ import { selectorBasket } from "../../redux/basket/selectors";
 import { useDispatch, useSelector } from "react-redux";
 import FilterActions from "../../redux/filter/actions";
 
-
 /**
  * Header Basket component for the Header component
  */
@@ -29,7 +28,9 @@ export default function MRHeaderBasket(): ReactElement {
   return (
     <div className={classes.root}>
       <div className={classes.wrapper} onClick={handleOpenSidebar}>
-       <div className={classes.basketIcon}> <BasketIcon /></div>
+        <div className={classes.basketIcon}>
+          <BasketIcon />
+        </div>
         <Label className={classes.label} bold>
           ₺&nbsp;{totalCost}
         </Label>

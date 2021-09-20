@@ -5,11 +5,10 @@ import { PanelItem } from "../../components/MRPanelFilter/MRPanelFilter";
 import ArrayHelper from "../../helpers/ArrayHelper";
 import FilterActions from "../../redux/filter/actions";
 import {
-    selectorFilteredItems,
-    selectorFilterTags
+  selectorFilteredItems,
+  selectorFilterTags,
 } from "../../redux/filter/selectors";
 
- 
 /**
  * Sidebar Tag filter component
  */

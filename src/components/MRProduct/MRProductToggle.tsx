@@ -1,15 +1,14 @@
 import { Button, Hidden, IconButton } from "@material-ui/core";
-import React, { ReactElement, useCallback } from "react";
-import { useStyleMRProductToggle } from "./style";
-import cx from "classnames";
 import FilterListIcon from "@material-ui/icons/FilterList";
+import cx from "classnames";
+import React, { ReactElement, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
-
 import FilterActions from "../../redux/filter/actions";
 import { selectorFilterType } from "../../redux/filter/selectors";
+import { useStyleMRProductToggle } from "./style";
 
 /**
- * Product item type selector component  
+ * Product item type selector component
  */
 export default function MRProductToggle(): ReactElement {
   const classes = useStyleMRProductToggle();

@@ -4,8 +4,6 @@ import HomeFilterBrands from "./HomeFilterBrands";
 import HomeFilterTags from "./HomeFilterTags";
 import { useStyleHomeFilter } from "./style";
 
- 
-
 export default React.memo(function HomeFilter(): ReactElement {
   const classes = useStyleHomeFilter();
   return (

@@ -2,18 +2,15 @@ import React, { ReactElement, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import MRPanelFilter from "../../components/MRPanelFilter";
 import { PanelItem } from "../../components/MRPanelFilter/MRPanelFilter";
-import {
-  selectorCompanies
-} from "../../redux/basket/selectors";
+import { selectorCompanies } from "../../redux/basket/selectors";
 import FilterActions from "../../redux/filter/actions";
 import {
   selectorFilterBrands,
-  selectorFilteredItems
+  selectorFilteredItems,
 } from "../../redux/filter/selectors";
 
-
 /**
- * 
+ *
  * Sidebar Brands filter component
  */
 export default function HomeFilterBrands(): ReactElement {

@@ -57,7 +57,7 @@ export const useStyleMRBasket = makeStyles((theme) => ({
 
 
 export const useStyleMRBasketItem = makeStyles((theme) => ({
-    root: {        
+    root: {
         width: 231,
         height: 40.88,
         marginRight: theme.spacing(1),
@@ -74,7 +74,7 @@ export const useStyleMRBasketItem = makeStyles((theme) => ({
         overflow: 'hidden',
     },
     productPrice: {
-        fontSize: theme.mr?.sizes.component.basket.product, 
+        fontSize: theme.mr?.sizes.component.basket.product,
         letterSpacing: 0.16,
         fontWeight: 600,
     },
@@ -87,13 +87,13 @@ export const useStyleMRBasketItem = makeStyles((theme) => ({
         width: 32,
         height: 32,
         fontWeight: 700,
-        fontSize: theme.mr?.sizes.component.basket.product, 
+        fontSize: theme.mr?.sizes.component.basket.product,
         justifyContent: 'center',
         backgroundColor: theme.palette.primary.main,
         color: theme.palette.common.white,
     },
     icon: {
-        fontSize: theme.mr?.sizes.component.basket.icon, 
+        fontSize: theme.mr?.sizes.component.basket.icon,
         color: theme.palette.primary.main,
     },
     button: {

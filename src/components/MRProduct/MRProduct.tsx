@@ -10,7 +10,6 @@ import MRProductItem from "../MRProductItem";
 import MRProductToggle from "./MRProductToggle";
 import { useStyleMRProduct } from "./style";
 
-
 const ITEM_COUNT_PER_PAGE: number = 16;
 
 export default function MRProduct(): ReactElement {

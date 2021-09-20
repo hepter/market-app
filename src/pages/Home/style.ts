@@ -22,7 +22,7 @@ export const useStyleHome = makeStyles((theme) => ({
 export const useStyleHomeFilter = makeStyles((theme) => ({
     root: {
         position: "sticky",
-        height: 876,
+        height: 844,
         top: theme.spacing(2)
     }
 

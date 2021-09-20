@@ -6,8 +6,7 @@ import React from "react";
 import ReactPaginate, { ReactPaginateProps } from "react-paginate";
 import { useStyleMRPagination } from "./style";
 
- 
-interface Props extends ReactPaginateProps  {
+interface Props extends ReactPaginateProps {
   /**
    * The classname on tag `div` of the root item.
    */

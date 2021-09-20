@@ -5,10 +5,7 @@ interface Props {
   color: string;
 }
 
-export default function RadioIcon({
-  checked,
-  color,
-}: Props): ReactElement {
+export default function RadioIcon({ checked, color }: Props): ReactElement {
   return (
     <svg
       width="22"

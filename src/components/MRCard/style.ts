@@ -6,7 +6,7 @@ export const useStyleMRCard = makeStyles((theme) => ({
         borderRadius: 2,
         backgroundColor: theme.palette.common.white
     },
-    innerRoot:{
+    innerRoot: {
 
         margin: theme.spacing(2),
     },

@@ -1,20 +1,17 @@
-import { Grid } from '@material-ui/core';
-import React, { ReactElement, useCallback } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import FilterActions from '../../redux/filter/actions';
-import { FilterSort } from '../../redux/filter/reducer';
-import { selectorFilterSort } from '../../redux/filter/selectors';
-import MRRadio from '../MRRadio/MRRadio';
-import MRSideCard from '../MRSideCard';
-
+import { Grid } from "@material-ui/core";
+import React, { ReactElement, useCallback } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import FilterActions from "../../redux/filter/actions";
+import { FilterSort } from "../../redux/filter/reducer";
+import { selectorFilterSort } from "../../redux/filter/selectors";
+import MRRadio from "../MRRadio/MRRadio";
+import MRSideCard from "../MRSideCard";
 
 /**
- * 
+ *
  * Sidebar sorting panel
  */
 export default function MRPanelSort(): ReactElement {
- 
-
   const dispatch = useDispatch();
   const filterSort = useSelector(selectorFilterSort);
 

@@ -4,7 +4,6 @@ import { LogoIcon } from "../../assets/image";
 import HeaderBasket from "./MRHeaderBasket";
 import { useStyleMRHeader } from "./style";
 
-
 /**
  * Main Header component
  */
