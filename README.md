@@ -9,11 +9,11 @@ All theme settings are in `src/theme.ts`
 `'MR'` Keyword was used as a prefix at the beginning of the components.
 ### Key Dependencies
 
-`Redux` for state management.
-`reduxsauce` and `reselect` for easy use of it and better Redux codebase
-`material-ui` theme management & components.
-`react-paginate` for paginating
-`react-window` for faster usage & scrolling due of data size
++ `Redux` for state management.
++ `reduxsauce` and `reselect` for easy use of it and better Redux codebase
++ `material-ui` theme management & components.
++ `react-paginate` for paginating
++ `react-window` for faster usage & scrolling due of data size
 
 ### Available Scripts
 
