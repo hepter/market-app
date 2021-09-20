@@ -1,23 +1,11 @@
-import React from "react";
 import { render, screen } from "@testing-library/react";
-import App from "../App";
-import BasketReducer from "../redux/basket/reducer";
-import FilterReducer, {
-  FilterSort,
-  FilterType,
-  getFilteredItem,
-  ProductItem,
-} from "../redux/filter/reducer";
-import { AnyAction } from "redux";
-
-import companies from "../assets/data/companies.json";
-import items from "../assets/data/items.json";
-import BasketActions, { BasketTypes } from "../redux/basket/actions";
-
-import { useSelector, useDispatch } from "react-redux";
-
+import React from "react";
 import * as redux from "react-redux";
 import MRBasketItem from "../components/MRBasket/MRBasketItem";
+import { BasketTypes } from "../redux/basket/actions";
+
+
+
 describe("MRBasketItem dispatch mock & click", function () {
   const useDispatchSpy = jest.spyOn(redux, "useDispatch");
   const mockDispatchFn = jest.fn();
