@@ -4,6 +4,7 @@ A simple market interface application was developed as an example
 
 All theme settings are in `src/theme.ts`
  
+Click [here](https://code-challenge-market-app.herokuapp.com/) for demo.
 
 
 `'MR'` Keyword was used as a prefix at the beginning of the components.
