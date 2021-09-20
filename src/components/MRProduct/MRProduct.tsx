@@ -12,8 +12,8 @@ import { useStyleMRProduct } from "./style";
 
 
 const ITEM_COUNT_PER_PAGE: number = 16;
-interface Props {}
-export default function MRProduct({}: Props): ReactElement {
+
+export default function MRProduct(): ReactElement {
   const [page, setPage] = React.useState(0);
   const classes = useStyleMRProduct();
   const isMobile = useBreakpoint(["xs", "sm"]);
